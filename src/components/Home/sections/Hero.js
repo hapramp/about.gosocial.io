@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="flex">
           <div className="w-1/2 mt-20">
             <h1 className="font-black text-7xl italic leading-tight">Creators Deserve To Earn</h1>
-            <p className="text-xl">There is more to the Internet than likes. On 1Ramp, your likes turn into money.</p>
+            <p className="text-xl mt-4">There is more to the Internet than likes. On 1Ramp, your likes turn into money.</p>
           </div>
           <div className="w-1/2 absolute top-0 right-0">
             <img src={heroImg} alt="Hero"/>

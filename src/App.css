@@ -8,6 +8,19 @@
   top: 64px;
 }
 
+section.form form.submitted {
+  display: none;
+}
+
+section.form .form-feedback {
+  display: none;
+}
+
+section.form .form-feedback.submitted {
+  display: block;
+}
+
+
 @media screen and (max-width:1024px) {
   .cta-dots {
     right: 24px;

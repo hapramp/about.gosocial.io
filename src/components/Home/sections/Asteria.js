@@ -2,9 +2,9 @@ import React from 'react';
 
 const Asteria = () => {
   return (
-    <section className="mt-40 md:px-10 lg:px-20 xl:px-0">
-      <div className="max-w-5xl flex mx-auto">
-        <h2 className="text-6xl pr-4 leading-tight">
+    <section className="sm:mt-32 md:mt-40 sm:px-10 lg:px-20 xl:px-0">
+      <div className="max-w-5xl flex flex-col md:flex-row mx-auto">
+        <h2 className="sm:text-5xl md:text-6xl pr-4 leading-tight">
           Powered by Asteria Protocol
         </h2>
         <div className="flex flex-col items-baseline pr-4">

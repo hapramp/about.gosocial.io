@@ -7,9 +7,9 @@ const Steem = () => {
   return (
     <section
     style={{backgroundImage:`url(${steemBlob})`}}
-     className="mt-40 bg-secondary py-40 text-white bg-left-top bg-no-repeat md:px-10 lg:px-20 xl:px-0">
-      <div className="max-w-5xl flex mx-auto items-center">
-        <div className="md:w-9/12 lg:w-1/2 flex flex-col justify-between pr-4">
+     className="sm:mt-32 md:mt-40 bg-secondary py-40 text-white bg-left-top bg-no-repeat sm:px-10 lg:px-20 xl:px-0">
+      <div className="max-w-5xl flex flex-col-reverse md:flex-row mx-auto items-center">
+        <div className="mt-12 md:mt-0 md:w-9/12 lg:w-1/2 flex flex-col justify-between pr-4">
           <div className="text-xl">
             <h2 className="text-4xl black italic">1Ramp is also available on Steem Blockchain</h2>
             <p className="mt-8">

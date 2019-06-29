@@ -4,10 +4,10 @@ import heroImg from './img/hero-image.png'
 const Hero = () => {
   return (
    <section className>
-      <div className="max-w-5xl mx-auto h-screen flex flex-col items-center relative justify-center md:px-10 xl:px-0" >
+      <div className="max-w-5xl mx-auto h-screen flex flex-col items-center relative justify-center sm:px-10 xl:px-0" >
         <div className="flex">
           <div className="w-1/2 mt-20">
-            <h1 className="font-black text-7xl italic leading-tight">Creators Deserve To Earn</h1>
+            <h1 className="font-black sm:text-6xl md:text-7xl italic leading-tight">Creators Deserve To Earn</h1>
             <p className="text-xl mt-4">There is more to the Internet than likes. On 1Ramp, your likes turn into money.</p>
           </div>
           <div className="w-1/2 absolute top-0 right-0">

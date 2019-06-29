@@ -2,3 +2,8 @@
   left: calc(((100vw - 1024px)/2) - 144px);
   top: 64px;
 }
+
+.cta-dots {
+  right: 64px;
+  top: 64px;
+}

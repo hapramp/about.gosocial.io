@@ -6,7 +6,7 @@ import suppdImg from './img/supp-img.png';
 const Feature = () => {
   return (
     <section>
-      <div className="max-w-5xl mx-auto mt-40 sm:px-10 lg:px-20 xl:px-0">
+      <div className="max-w-5xl mx-auto mt-24 sm:mt-40 px-6 sm:px-10 lg:px-20 xl:px-0">
         {/* Reward Section */}
         <div className="flex flex-col md:flex-row justify-center items-center">
           <div className="md:w-1/2">
@@ -22,7 +22,7 @@ const Feature = () => {
         </div>
 
         {/* Support Section */}
-        <div className="flex flex-col-reverse md:flex-row justify-center items-center mt-32">
+        <div className="flex flex-col-reverse md:flex-row justify-center items-center mt-24 sm:mt-32">
           <div className="md:w-1/2 mt-8 md:mt-0 text-center md:text-left">
             <h2 className="font-black text-4xl lg:text-5xl italic">Support new creators</h2>
             <p className="sm:text-xl text-2xl lg:text-3xl leading-tight mt-4">

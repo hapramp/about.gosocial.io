@@ -7,3 +7,10 @@
   right: 64px;
   top: 64px;
 }
+
+@media screen and (max-width:1024px) {
+  .cta-dots {
+    right: 24px;
+    top: 24px;
+  }
+}

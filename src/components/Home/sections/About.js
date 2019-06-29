@@ -6,11 +6,11 @@ const About = () => {
   return (
     <section 
     style={{backgroundImage:`url(${blobImg})`}}
-    className="bg-black sm:py-24 md:py-32 text-white relative sm:px-10 lg:px-20 xl:px-0 bg-right-bottom bg-no-repeat">
+    className="bg-black py-16 sm:py-24 md:py-32 text-white relative px-6 sm:px-10 lg:px-20 xl:px-0 bg-right-bottom bg-no-repeat">
       <div className="max-w-5xl mx-auto">
-        <h2 className="font-black sm:text-4xl md:text-5xl italic">1Ramp is For Creators</h2>
-        <div className="max-w-9/2xl sm:text-2xl md:text-3xl leading-tight">
-          <p className="mt-16">Writers, photographers, visual artists, poets… We can list all of them, but
+        <h2 className="font-black text-4xl md:text-5xl italic">1Ramp is For Creators</h2>
+        <div className="max-w-9/2xl text-xl sm:text-2xl md:text-3xl leading-tight">
+          <p className="mt-8 sm:mt-12 md:mt-16">Writers, photographers, visual artists, poets… We can list all of them, but
             you got the point, right?
           </p>
           <p className="mt-6">Creators put more than <span className="text-primary">$100 Billion</span> worth of content on the Internet every

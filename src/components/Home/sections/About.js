@@ -4,7 +4,9 @@ import dots from './img/dots.png';
 
 const About = () => {
   return (
-    <section className="bg-black py-32 text-white relative lg:px-20 xl:px-0">
+    <section 
+    style={{backgroundImage:`url(${blobImg})`}}
+    className="bg-black py-32 text-white relative md:px-10 lg:px-20 xl:px-0 bg-right-bottom bg-no-repeat">
       <div className="max-w-5xl mx-auto">
         <h2 className="font-black text-5xl italic">1Ramp is For Creators</h2>
         <div className="max-w-9/2xl text-3xl leading-tight">
@@ -15,7 +17,6 @@ const About = () => {
             year. And we know a way to give this value back to them.</p>
         </div>
         <img className="absolute about-dots" src={dots} alt="Dots Decos"/>
-        <img className="absolute right-0 bottom-0" src={blobImg} alt="About Blob"/>
       </div>
     </section>
   );

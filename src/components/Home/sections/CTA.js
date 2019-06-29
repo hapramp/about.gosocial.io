@@ -9,7 +9,7 @@ const CTA = () => {
     <section className="mt-32 lg:px-6 xl:px-0">
       <div
         style={{backgroundImage:`url(${ctaBlob})`}}
-        className="container bg-black text-white mx-auto py-32 rounded-lg shadow-2xl text-center relative bg-left-bottom bg-no-repeat">
+        className="md:px-12 lg:container bg-black text-white lg:mx-auto py-32 lg:rounded-lg lg:shadow-2xl text-center relative bg-left-bottom bg-no-repeat">
         <h2 className="font-black text-5xl italic">Join The Movement</h2>
         <p className="text-2xl mt-4">Request an invite and we’ll notify you when it’s ready.</p>
         <form className="max-w-4xl flex mx-auto mt-8 text-lg">

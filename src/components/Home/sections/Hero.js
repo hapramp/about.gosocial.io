@@ -4,7 +4,7 @@ import heroImg from './img/hero-image.png'
 const Hero = () => {
   return (
    <section className>
-      <div className="max-w-5xl mx-auto h-screen flex flex-col items-center relative justify-center" >
+      <div className="max-w-5xl mx-auto h-screen flex flex-col items-center relative justify-center md:px-10 xl:px-0" >
         <div className="flex">
           <div className="w-1/2 mt-20">
             <h1 className="font-black text-7xl italic leading-tight">Creators Deserve To Earn</h1>

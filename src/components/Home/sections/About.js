@@ -4,7 +4,7 @@ import dots from './img/dots.png';
 
 const About = () => {
   return (
-    <section className="bg-black py-32 text-white relative">
+    <section className="bg-black py-32 text-white relative lg:px-20 xl:px-0">
       <div className="max-w-5xl mx-auto">
         <h2 className="font-black text-5xl italic">1Ramp is For Creators</h2>
         <div className="max-w-9/2xl text-3xl leading-tight">

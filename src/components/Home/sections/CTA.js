@@ -6,7 +6,7 @@ import dots from './img/dots.png';
 
 const CTA = () => {
   return (
-    <section className="mt-32">
+    <section className="mt-32 lg:px-6 xl:px-0">
       <div
         style={{backgroundImage:`url(${ctaBlob})`}}
         className="container bg-black text-white mx-auto py-32 rounded-lg shadow-2xl text-center relative bg-left-bottom bg-no-repeat">

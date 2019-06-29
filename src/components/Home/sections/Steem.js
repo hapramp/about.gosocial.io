@@ -7,7 +7,7 @@ const Steem = () => {
   return (
     <section
     style={{backgroundImage:`url(${steemBlob})`}}
-     className="mt-40 bg-secondary py-40 text-white bg-left-top bg-no-repeat">
+     className="mt-40 bg-secondary py-40 text-white bg-left-top bg-no-repeat lg:px-20 xl:px-0">
       <div className="max-w-5xl flex mx-auto">
         <div className="w-1/2 flex flex-col justify-between pr-4">
           <div className="text-xl">
@@ -29,8 +29,8 @@ const Steem = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2">
-          <img src={steemImg} alt="Steem App"/>
+        <div className="w-1/2 text-right">
+          <img className="lg:w-4/5 lg:w-4/5 xl:w-auto inline-block" src={steemImg} alt="Steem App"/>
         </div>
       </div>
     </section>

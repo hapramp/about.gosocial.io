@@ -8,14 +8,14 @@ import Steem from './sections/Steem';
 
 const index = () => {
   return (
-    <main className="font-roboto antialiased">
+    <div className="antialiased">
       <Hero />
       <About />
       <Feature />
       <CTA />
       <Asteria />
       <Steem />
-    </main>
+    </div>
   );
 };
 

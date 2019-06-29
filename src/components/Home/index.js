@@ -3,6 +3,7 @@ import Hero from './sections/Hero';
 import About from './sections/About';
 import Feature from './sections/Feature';
 import CTA from './sections/CTA';
+import Asteria from './sections/Asteria';
 
 const index = () => {
   return (
@@ -11,6 +12,7 @@ const index = () => {
       <About />
       <Feature />
       <CTA />
+      <Asteria />
     </main>
   );
 };

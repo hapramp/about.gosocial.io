@@ -6,7 +6,7 @@ const Hero = () => {
    <section className>
       <div className="max-w-5xl mx-auto sm:h-screen flex flex-col items-center relative justify-center px-6 sm:px-10 xl:px-0 mb-32" >
         <div className="flex flex-col sm:flex-row">
-          <div className="sm:w-1/2 mt-56 sm:mt-20">
+          <div className="sm:w-1/2 mt-64 sm:mt-20">
             <h1 className="font-black text-5xl sm:text-6xl md:text-7xl italic leading-tight">Creators Deserve To Earn</h1>
             <p className="text-xl mt-4">There is more to the Internet than likes. On 1Ramp, your likes turn into money.</p>
           </div>

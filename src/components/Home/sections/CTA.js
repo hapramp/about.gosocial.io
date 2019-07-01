@@ -18,8 +18,8 @@ const CTA = () => {
         className={`${submitted} max-w-4xl flex flex-col md:flex-row mx-auto mt-16 text-lg flex-wrap md:flex-no-wrap`}
         target="hidden_iframe"
         >
-          <input required name="entry.747163953" className="text-center md:text-left bg-transparent border border-white py-4 px-6 rounded md:mr-4 focus:outline-none" type="email" placeholder="Your Email"/>
-          <input required name="entry.1698641747" className="text-center md:text-lef mt-4 md:mt-0 md:w-1/2 bg-transparent border border-white py-4 px-6 rounded md:mr-4 focus:outline-none" type="text" placeholder="Your profile (Insta, medium, wordpress..."/>
+          <input required name="entry.747163953" className="text-left bg-transparent border border-white py-4 px-6 rounded md:mr-4 focus:outline-none" type="email" placeholder="Your Email"/>
+          <input required name="entry.1698641747" className="text-left mt-4 md:mt-0 md:w-1/2 bg-transparent border border-white py-4 px-6 rounded md:mr-4 focus:outline-none" type="text" placeholder="Your profile (Insta, medium, wordpress..."/>
           <input onClick={()=>{setSubmitted('submitted')}} className="shadow sm:shadow-none mt-4 md:mt-0 flex-grow bg-primary py-4 px-6 rounded cursor-pointer" type="submit" value="Request Invite"/>
         </form>
 

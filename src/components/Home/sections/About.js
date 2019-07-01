@@ -13,7 +13,7 @@ const About = () => {
           <p className="mt-8 sm:mt-12 md:mt-16">Writers, photographers, visual artists, poets… We can list all of them, but
             you got the point, right?
           </p>
-          <p className="mt-6">Creators put more than <span className="text-primary">$100 Billion</span> worth of content on the Internet every
+          <p className="mt-6">Creators put more than <span className="font-black">$100 Billion</span> worth of content on the Internet every
             year. And we know a way to give this value back to them.</p>
         </div>
         <img className="absolute about-dots" src={dots} alt="Dots Decos"/>

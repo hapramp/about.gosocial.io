@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.45bc7c11.chunk.css",
-    "main.js": "/static/js/main.bf46de15.chunk.js",
-    "main.js.map": "/static/js/main.bf46de15.chunk.js.map",
+    "main.js": "/static/js/main.308e373c.chunk.js",
+    "main.js.map": "/static/js/main.308e373c.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.b705c5ce.chunk.js": "/static/js/2.b705c5ce.chunk.js",
     "static/js/2.b705c5ce.chunk.js.map": "/static/js/2.b705c5ce.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.80ca92857c64c95b40fc878d580f51b1.js": "/precache-manifest.80ca92857c64c95b40fc878d580f51b1.js",
+    "precache-manifest.8c2c2bcf5cd0e5d8692f7df5c1142e3d.js": "/precache-manifest.8c2c2bcf5cd0e5d8692f7df5c1142e3d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.45bc7c11.chunk.css.map": "/static/css/main.45bc7c11.chunk.css.map",
-    "static/media/hero-image.png": "/static/media/hero-image.7a275e7d.png",
+    "static/media/hero-image.png": "/static/media/hero-image.90bdc755.png",
     "static/media/reward-img.png": "/static/media/reward-img.9dbec41c.png",
     "static/media/steem-img.png": "/static/media/steem-img.782ded6e.png",
     "static/media/supp-img.png": "/static/media/supp-img.45cb0ec6.png"

@@ -28,7 +28,7 @@ yarn run test or npm run test
 
 👤 **Mofid Ansari**
 
-* Twitter: [@ansrimofid_](https://twitter.com/ansrimofid_)
+* Twitter: [@ansarimofid_](https://twitter.com/ansarimofid_)
 * Github: [@ansarimofid](https://github.com/ansarimofid)
 
 ## Show your support

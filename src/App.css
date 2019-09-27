@@ -8,15 +8,15 @@
   top: 64px;
 }
 
-section.form form.submitted {
+section.form form.submitted, section.hero form.submitted {
   display: none;
 }
 
-section.form .form-feedback {
+section.form .form-feedback, section.hero .form-feedback {
   display: none;
 }
 
-section.form .form-feedback.submitted {
+section.form .form-feedback.submitted, section.hero .form-feedback.submitted {
   display: block;
 }
 

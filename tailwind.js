@@ -8,7 +8,10 @@ module.exports = {
       secondary:'#264BBB',
       black:'#000000',
       white:'#FFFFFF',
-      transparent:'rgba(0,0,0,0)'
+      transparent:'rgba(0,0,0,0)',
+      'grey-12':'rgba(0,0,0,0.12)',
+      'grey-54':'rgba(0,0,0,0.54)',
+      'grey-70':'rgba(0,0,0,0.70)',
     },
     extend: {
       fontSize: {

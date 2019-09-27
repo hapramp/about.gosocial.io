@@ -14,9 +14,9 @@ const Feature = () => {
           </div>
 
           <div className="md:w-1/2 mt-8 md:mt-0 text-center md:text-left">
-            <h2 className="font-black text-4xl lg:text-5xl italic">Rewards beyond likes</h2>
-            <p className="sm:text-xl text-2xl lg:text-3xl leading-tight mt-4">
-              Earn on every like, share, post, and more. Redeem it on 1Ramp’s unique store.
+            <h2 className="font-black text-4xl lg:text-4xl italic">New Challenges,Every Week.</h2>
+            <p className="sm:text-xl text-2xl lg:text-2xl leading-tight mt-4">
+            Take your cue from the challenges created by experts and never run out of ideas and inspiration to create.
             </p>
           </div>
         </div>
@@ -24,9 +24,9 @@ const Feature = () => {
         {/* Support Section */}
         <div className="flex flex-col-reverse md:flex-row justify-center items-center mt-24 sm:mt-32">
           <div className="md:w-1/2 mt-8 md:mt-0 text-center md:text-left">
-            <h2 className="font-black text-4xl lg:text-5xl italic">Support new creators</h2>
-            <p className="sm:text-xl text-2xl lg:text-3xl leading-tight mt-4">
-            Upgrade to orange account and reward your favorite creators with every like.
+            <h2 className="font-black text-4xl lg:text-4xl italic">Rewards That Keep You Going, Every Week.</h2>
+            <p className="sm:text-xl text-xl lg:text-2xl leading-tight mt-4">
+              Take your cue from the challenges created by experts and never run out of ideas and inspiration to create.
             </p>
           </div>
           <div className="md:w-1/2 text-right">

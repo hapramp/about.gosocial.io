@@ -1,20 +1,20 @@
 import React from 'react';
 import Hero from './sections/Hero';
-import About from './sections/About';
+// import About from './sections/About';
 import Feature from './sections/Feature';
 import CTA from './sections/CTA';
-import Asteria from './sections/Asteria';
-import Steem from './sections/Steem';
+// import Asteria from './sections/Asteria';
+// import Steem from './sections/Steem';
 
 const index = () => {
   return (
     <div className="antialiased">
       <Hero />
-      <About />
+      {/* <About /> */}
       <Feature />
       <CTA />
-      <Asteria />
-      <Steem />
+      {/* <Asteria /> */}
+      {/* <Steem /> */}
     </div>
   );
 };

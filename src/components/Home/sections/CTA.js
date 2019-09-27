@@ -7,7 +7,7 @@ import dots from './img/dots.png';
 const CTA = () => {
   const [submitted, setSubmitted] = useState(' ');
   return (
-    <section className={`form mt-24 sm:mt-32 lg:px-6 xl:px-0`}>
+    <section className={`form mt-24 sm:mt-32 mb-24 sm:mb-32 lg:px-6 xl:px-0`}>
       <div
         style={{backgroundImage:`url(${ctaBlob})`}}
         className="px-6 max-w-7xl sm:px-10 bg-black text-white lg:mx-auto pt-32 pb-20 sm:py-32 lg:rounded-lg lg:shadow-2xl text-center relative bg-left-bottom bg-no-repeat">
@@ -25,7 +25,7 @@ const CTA = () => {
 
         <iframe title="hidden_iframe" name="hidden_iframe" id="hidden_iframe" className="hidden"></iframe>
         
-        <p className={`${submitted} form-feedback text-xl px-4 sm:px-0 sm:text-2xl mt-8 sm:mt-16 max-w-3xl mx-auto text-primary`}>We are excited to see you on our invite list. “Rewarding creators” is a movement and we cannot do it without your support.</p>
+        <p className={`${submitted} form-feedback text-xl px-4 sm:px-0 sm:text-2xl mt-8 sm:mt-16 max-w-3xl mx-auto text-primary`}>Your email is going into our early invite list. The invitation will be on its way before new year. Thank you!</p>
 
         <img className="absolute cta-dots" src={dots} alt="Dots Decos"/>
       </div>

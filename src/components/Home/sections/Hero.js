@@ -3,6 +3,7 @@ import heroImg from './img/hero-image.png'
 
 const Hero = () => {
   const [submitted, setSubmitted] = useState(' ');
+  const [email, setEmail] = useState(' ');
   return (
    <section className="hero">
       <div className="max-w-5xl mx-auto sm:h-screen flex flex-col items-center relative justify-center px-6 sm:px-10 xl:px-0 mb-32" >
@@ -15,8 +16,8 @@ const Hero = () => {
                 className={`${submitted} max-w-4xl flex flex-col md:flex-row mx-auto mt-10 text-lg flex-wrap md:flex-no-wrap`}
                 target="hidden_iframe"
                 >
-              <input required name="entry.747163953" className="md:w-3/4 text-left bg-transparent border border-grey-12 py-4 px-6 rounded md:mr-2 focus:outline-none" type="email" placeholder="Your Email"/>
-              <input onClick={()=>{setSubmitted('submitted')}} className="text-white shadow sm:shadow-none mt-4 md:mt-0 flex-grow bg-primary py-4 px-6 rounded cursor-pointer" type="submit" value="Request Invite"/>
+              <input value={email} onChange={(e)=>{setEmail(e.target.value)}} required name="entry.747163953" className="md:w-3/4 text-left bg-transparent border border-grey-12 py-4 px-6 rounded md:mr-2 focus:outline-none" type="email" placeholder="Your Email"/>
+              <input onClick={()=>{if(email!==' '){setSubmitted('submitted')}}} className="text-white shadow sm:shadow-none mt-4 md:mt-0 flex-grow bg-primary py-4 px-6 rounded cursor-pointer" type="submit" value="Request Invite"/>
             </form>
             <iframe title="hidden_iframe" name="hidden_iframe" id="hidden_iframe" className="hidden"></iframe>
         

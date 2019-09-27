@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80b0044b4016f1c9569835e6326a6bca",
+    "revision": "3255c3a4d6d9fe6b320c3dfeb1c665f9",
     "url": "/index.html"
   },
   {
-    "revision": "56bb392817c3cfe18dc5",
-    "url": "/static/css/main.45bc7c11.chunk.css"
+    "revision": "669a69beaa1fb5632b65",
+    "url": "/static/css/main.8d45ceba.chunk.css"
   },
   {
-    "revision": "8bdc6b0e45b99eb456cf",
-    "url": "/static/js/2.b705c5ce.chunk.js"
+    "revision": "2af48c7e119f2da43af5",
+    "url": "/static/js/2.fae1b156.chunk.js"
   },
   {
-    "revision": "56bb392817c3cfe18dc5",
-    "url": "/static/js/main.308e373c.chunk.js"
+    "revision": "669a69beaa1fb5632b65",
+    "url": "/static/js/main.945b06ce.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9dbec41c82b0d746148e7b483483ad18",
     "url": "/static/media/reward-img.9dbec41c.png"
-  },
-  {
-    "revision": "782ded6ea86837e03b92a19c73b47e76",
-    "url": "/static/media/steem-img.782ded6e.png"
   },
   {
     "revision": "45cb0ec60f5d422299037df7549a2329",

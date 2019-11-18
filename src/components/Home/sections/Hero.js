@@ -11,7 +11,15 @@ const Hero = () => {
           <div className="sm:w-1/2 mt-64 sm:mt-20">
             <h1 className="font-black text-5xl sm:text-6xl md:text-7xl italic leading-tight">GoSocial</h1>
             <p className="text-xl mt-4">Take challenges in design, photography, writing and your favorite creative skills. Get Inspired and earn rewards on the Go.</p>
-              <form 
+            <div className=" mt-16">
+              <a href="!#" className="text-white shadow sm:shadow-none mt-4 md:mt-0 flex-grow bg-primary py-4 px-6 rounded cursor-pointer">
+              <svg className="inline mr-2" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                <path fill="#fff" d="M1.571 23.664l10.531-10.501 3.712 3.701-12.519 6.941a1.563 1.563 0 01-1.532-.011l-.192-.13zm9.469-11.56L1 22.115V2.093l10.04 10.011zm6.274-4.137l4.905 2.719c.482.268.781.77.781 1.314s-.299 1.046-.781 1.314l-5.039 2.793-4.015-4.003 4.149-4.137zM1.46.433A1.563 1.563 0 013.295.195L15.948 7.21l-3.846 3.835L1.46.433z"/>
+              </svg>
+              <span>Get it on Playstore</span>
+              </a>
+            </div>
+              {/* <form 
                 action="https://docs.google.com/forms/d/e/1FAIpQLSciUs-UEM1VcfqhjtUJSfpLCQdIku_bEj3lXGXIEfGqGQ65gg/formResponse" 
                 className={`${submitted} max-w-4xl flex flex-col md:flex-row mx-auto mt-10 text-lg flex-wrap md:flex-no-wrap`}
                 target="hidden_iframe"
@@ -22,7 +30,7 @@ const Hero = () => {
             <iframe title="hidden_iframe" name="hidden_iframe" id="hidden_iframe" className="hidden"></iframe>
         
             <p className={`${submitted} form-feedback text-xl px-4 sm:px-0 sm:text-2xl mt-8 sm:mt-16 max-w-3xl mx-auto text-primary`}>Your email is going into our early invite list. The invitation will be on its way before new year. Thank you!
-</p>
+</p> */}
           </div>
           <div className="w-56 sm:w-1/2 absolute top-0 right-0">
             <img src={heroImg} alt="Hero"/>

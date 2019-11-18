@@ -1,18 +1,16 @@
-import React, {useState} from 'react';
+import React from 'react';
 import heroImg from './img/hero-image.png'
 
 const Hero = () => {
-  const [submitted, setSubmitted] = useState(' ');
-  const [email, setEmail] = useState(' ');
   return (
    <section className="hero">
       <div className="max-w-5xl mx-auto sm:h-screen flex flex-col items-center relative justify-center px-6 sm:px-10 xl:px-0 mb-32" >
         <div className="flex flex-col sm:flex-row">
           <div className="sm:w-1/2 mt-64 sm:mt-20">
-            <h1 className="font-black text-5xl sm:text-6xl md:text-7xl italic leading-tight">GoSocial</h1>
-            <p className="text-xl mt-4">Take challenges in design, photography, writing and your favorite creative skills. Get Inspired and earn rewards on the Go.</p>
-            <div className=" mt-16">
-              <a href="!#" className="text-white shadow sm:shadow-none mt-4 md:mt-0 flex-grow bg-primary py-4 px-6 rounded cursor-pointer">
+            <h1 className="font-black text-4xl sm:text-4xl md:text-6xl italic leading-tight">Creators, Let’s Gosocial</h1>
+            <p className="text-xl mt-4">Take challenges and contests in photography, writing, and design. Get Inspired and earn rewards on the Go!</p>
+            <div className="mt-16">
+              <a href="!#" className="text-white shadow sm:shadow-none mt-4 md:mt-0 flex-grow bg-primary py-4 px-6 rounded cursor-pointer" target="__new">
               <svg className="inline mr-2" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
                 <path fill="#fff" d="M1.571 23.664l10.531-10.501 3.712 3.701-12.519 6.941a1.563 1.563 0 01-1.532-.011l-.192-.13zm9.469-11.56L1 22.115V2.093l10.04 10.011zm6.274-4.137l4.905 2.719c.482.268.781.77.781 1.314s-.299 1.046-.781 1.314l-5.039 2.793-4.015-4.003 4.149-4.137zM1.46.433A1.563 1.563 0 013.295.195L15.948 7.21l-3.846 3.835L1.46.433z"/>
               </svg>

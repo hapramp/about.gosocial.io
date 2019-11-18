@@ -13,6 +13,8 @@ const Footer = () => {
           <li className="ml-6 mb-4"><a href="https://www.instagram.com/gosocialapp_co/" target="__new">Instagram</a></li>
           <li className="ml-6 mb-4"><a href="https://twitter.com/GoSocialapp_co" target="__new">Twitter</a></li>
           
+          <li className="ml-6 mb-4"><a href="https://www.getgosocial.app/privacy-policy" target="__new">Privacy Policy</a></li>
+          
           <li className="ml-6 mb-4"><a href="mailto:gosocial@hapramp.com">gosocial@hapramp.com</a></li>
         </ul>
       </div>

@@ -1,10 +1,9 @@
-# Welcome to https://1ramp.io 👋
+# Welcome to https://getgosocial.app/ 👋
 ![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
-[![Twitter: ansrimofid_](https://img.shields.io/twitter/follow/ansrimofid_.svg?style=social)](https://twitter.com/ansrimofid_)
+[![Twitter: GoSocialapp_co](https://img.shields.io/twitter/follow/GoSocialapp_co.svg?style=social)](https://twitter.com/GoSocialapp_co)
 
-> Repository for 1ramp.io landing page
 
-### 🏠 [Homepage](https://1ramp.io)
+### 🏠 [Homepage](https://getgosocial.app/)
 
 ## Install
 
@@ -23,18 +22,3 @@ yarn start or npm start
 ```sh
 yarn run test or npm run test
 ```
-
-## Author
-
-👤 **Mofid Ansari**
-
-* Twitter: [@ansarimofid_](https://twitter.com/ansarimofid_)
-* Github: [@ansarimofid](https://github.com/ansarimofid)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

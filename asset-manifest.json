@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d45ceba.chunk.css",
-    "main.js": "/static/js/main.ae5f668c.chunk.js",
-    "main.js.map": "/static/js/main.ae5f668c.chunk.js.map",
+    "main.css": "/static/css/main.59640f1d.chunk.css",
+    "main.js": "/static/js/main.c723c231.chunk.js",
+    "main.js.map": "/static/js/main.c723c231.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.716d88e2.chunk.js": "/static/js/2.716d88e2.chunk.js",
-    "static/js/2.716d88e2.chunk.js.map": "/static/js/2.716d88e2.chunk.js.map",
+    "static/js/2.13c15708.chunk.js": "/static/js/2.13c15708.chunk.js",
+    "static/js/2.13c15708.chunk.js.map": "/static/js/2.13c15708.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cadcbcb41919722db896c3ad263d0412.js": "/precache-manifest.cadcbcb41919722db896c3ad263d0412.js",
+    "precache-manifest.3132a775114898dddfbc5c3906292a8a.js": "/precache-manifest.3132a775114898dddfbc5c3906292a8a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.8d45ceba.chunk.css.map": "/static/css/main.8d45ceba.chunk.css.map",
-    "static/media/challenges.png": "/static/media/challenges.f47cd1fe.png",
-    "static/media/contest.png": "/static/media/contest.eb7d18f5.png",
-    "static/media/hero-image.png": "/static/media/hero-image.90bdc755.png",
-    "static/media/leaderboard.png": "/static/media/leaderboard.2117a087.png"
+    "static/css/main.59640f1d.chunk.css.map": "/static/css/main.59640f1d.chunk.css.map",
+    "static/media/audiance.png": "/static/media/audiance.a088bf64.png",
+    "static/media/challenges.png": "/static/media/challenges.c8eca48c.png",
+    "static/media/contest.png": "/static/media/contest.b7ca9b52.png",
+    "static/media/empower.jpg": "/static/media/empower.b75cb473.jpg",
+    "static/media/hero-bg.jpg": "/static/media/hero-bg.7a3732e1.jpg",
+    "static/media/hero_bg.jpg": "/static/media/hero_bg.0c720279.jpg",
+    "static/media/hero_phone.png": "/static/media/hero_phone.512d1bcd.png",
+    "static/media/reward-img.png": "/static/media/reward-img.f5fb6fce.png",
+    "static/media/streak-img.png": "/static/media/streak-img.af17895e.png"
   }
 }

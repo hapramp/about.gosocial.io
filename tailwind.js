@@ -20,7 +20,12 @@ module.exports = {
       maxWidth: {
         '9/2xl':'68rem',
         '7xl':'80rem'
-      }
+      },
+      spacing:{
+        '68':'17rem',
+        '72': '18rem',
+        '84': '21rem',
+      },
     }
   },
   variants: {},

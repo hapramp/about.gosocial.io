@@ -20,6 +20,10 @@ section.form .form-feedback.submitted, section.hero .form-feedback.submitted {
   display: block;
 }
 
+.hero .hero-content {
+  margin-top: -500px;
+}
+
 
 @media screen and (max-width:1024px) {
   .cta-dots {

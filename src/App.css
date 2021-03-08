@@ -25,6 +25,22 @@ section.form .form-feedback.submitted, section.hero .form-feedback.submitted {
 }
 
 
+.form .message {
+  display: none;
+}
+
+.form.submitted input, form.submitted button, form.submitted .cta-input-wrapper {
+  display: none;
+}
+
+.form.submitted .message {
+  display: block;
+}
+
+.border-grey-24 {
+  border-color: rgba(0, 0, 0, 0.24);
+}
+
 @media screen and (max-width:1024px) {
   .cta-dots {
     right: 24px;

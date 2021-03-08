@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './components/Home';
-import Contributors from './components/Contributors'
+import Creators from './components/Creators'
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,8 +14,8 @@ function App() {
     <main className="font-roboto">
       <Router>
       <Switch>
-          <Route path="/contributors">
-            <Contributors />
+          <Route path="/creators">
+            <Creators />
           </Route>
           <Route path="/">
           <Home/>

@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-black py-20 text-white px-6 sm:px-10 lg:px-20 xl:px-0">
       <div className="max-w-5xl mx-auto flex flex-col-reverse md:flex-row justify-between">
         <div className="mt-8 md:mt-0">
-        <a href="https://gosocial.io" className="text-6xl font-black italic leading-tight" rel="noreferrer" target="_blank">GoSocial</a>
+        <a href="https://gosocial.io" className="text-6xl font-black italic leading-tight" rel="noopener noreferrer" target="_blank">GoSocial</a>
           <div className="ml-2 text-lg">By <a rel="nofollow"  className="border-white border-b-2 ml-2" href="https://hapramp.com" target="__new">HapRamp Studio</a></div>
         </div>
         <ul className="flex text-lg flex-wrap -ml-6 md:ml-8 md:mt-4">

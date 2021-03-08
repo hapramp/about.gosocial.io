@@ -19,7 +19,7 @@ const Footer = () => {
           <li className="ml-6 mb-4"><a href="/terms.html" target="_blank">Terms</a></li>
           
           <li className="ml-6 mb-4"><a href="mailto:gosocial@hapramp.com">gosocial@hapramp.com</a></li>
-          <li className="ml-6 mb-4"><Link to="/contributors" className="border-primary border-b-2 text-primary">Become Contributor</Link></li>
+          <li className="ml-6 mb-4"><Link to="/creators" className="border-primary border-b-2 text-primary">Become Creator</Link></li>
         </ul>
       </div>
     </footer>

@@ -1,24 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.59640f1d.chunk.css",
-    "main.js": "/static/js/main.881eeb4b.chunk.js",
-    "main.js.map": "/static/js/main.881eeb4b.chunk.js.map",
+    "main.css": "/static/css/main.137c22a2.chunk.css",
+    "main.js": "/static/js/main.929f37ca.chunk.js",
+    "main.js.map": "/static/js/main.929f37ca.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.35293482.chunk.js": "/static/js/2.35293482.chunk.js",
-    "static/js/2.35293482.chunk.js.map": "/static/js/2.35293482.chunk.js.map",
+    "static/js/2.1c0328aa.chunk.js": "/static/js/2.1c0328aa.chunk.js",
+    "static/js/2.1c0328aa.chunk.js.map": "/static/js/2.1c0328aa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.65d98763e11b55c9517163009581298e.js": "/precache-manifest.65d98763e11b55c9517163009581298e.js",
+    "precache-manifest.ddc6251fb9e1e8232511e86f848d26f8.js": "/precache-manifest.ddc6251fb9e1e8232511e86f848d26f8.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.59640f1d.chunk.css.map": "/static/css/main.59640f1d.chunk.css.map",
-    "static/media/audiance.png": "/static/media/audiance.a088bf64.png",
-    "static/media/challenges.png": "/static/media/challenges.c8eca48c.png",
-    "static/media/contest.png": "/static/media/contest.b7ca9b52.png",
-    "static/media/empower.jpg": "/static/media/empower.b75cb473.jpg",
-    "static/media/hero-bg.jpg": "/static/media/hero-bg.7a3732e1.jpg",
-    "static/media/hero_bg.jpg": "/static/media/hero_bg.0c720279.jpg",
-    "static/media/hero_phone.png": "/static/media/hero_phone.512d1bcd.png",
-    "static/media/reward-img.png": "/static/media/reward-img.f5fb6fce.png",
-    "static/media/streak-img.png": "/static/media/streak-img.af17895e.png"
+    "static/css/main.137c22a2.chunk.css.map": "/static/css/main.137c22a2.chunk.css.map",
+    "static/media/appstore.svg": "/static/media/appstore.2928664f.svg",
+    "static/media/community.svg": "/static/media/community.8522c460.svg",
+    "static/media/idea-buld.svg": "/static/media/idea-buld.0cf387b0.svg",
+    "static/media/money.svg": "/static/media/money.aaf11622.svg",
+    "static/media/playstore.png": "/static/media/playstore.3c0c0da0.png"
   }
 }

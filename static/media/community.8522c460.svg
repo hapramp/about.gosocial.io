@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>multiple-chat</title>
+    <g id="final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="startqw-copy-8" transform="translate(-237.000000, -685.000000)" stroke="#000000" stroke-width="1.5">
+            <g id="Group-10" transform="translate(209.000000, 657.000000)">
+                <g id="multiple-chat" transform="translate(28.000000, 28.000000)">
+                    <path d="M21.75,8.25 L13.5,8.25 L12,9.749 L10.5,8.249 L2.25,8.249 C1.42157288,8.249 0.75,7.57742712 0.75,6.749 L0.75,2.25 C0.75,1.42157288 1.42157288,0.75 2.25,0.75 L21.75,0.75 C22.5784271,0.75 23.25,1.42157288 23.25,2.25 L23.25,6.75 C23.25,7.57842712 22.5784271,8.25 21.75,8.25 Z" id="Path"></path>
+                    <circle id="Oval" cx="3.375" cy="16.875" r="2.625"></circle>
+                    <path d="M7.514,22.983 C6.97684318,21.727946 5.89899027,20.7845938 4.58382772,20.4184715 C3.26866518,20.0523492 1.85840599,20.3030469 0.75,21.1" id="Path"></path>
+                    <circle id="Oval" cx="20.625" cy="16.875" r="2.625"></circle>
+                    <path d="M16.486,22.983 C17.0231568,21.727946 18.1010097,20.7845938 19.4161723,20.4184715 C20.7313348,20.0523492 22.141594,20.3030469 23.25,21.1" id="Path"></path>
+                    <circle id="Oval" cx="12" cy="16.125" r="3.375"></circle>
+                    <path d="M16.714,23.249 C15.5622708,21.8264795 13.8298128,21.0000467 11.9995,21.0000467 C10.1691872,21.0000467 8.4367292,21.8264795 7.285,23.249" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>study-light-idea</title>
+    <g id="final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="startqw-copy-8" transform="translate(-597.000000, -685.000000)" stroke="#000000" stroke-width="1.5">
+            <g id="Group-10" transform="translate(209.000000, 657.000000)">
+                <g id="Group-12" transform="translate(360.000000, 0.000000)">
+                    <g id="study-light-idea" transform="translate(29.000000, 28.000000)">
+                        <line x1="11" y1="2.251" x2="11" y2="0.751" id="Path"></line>
+                        <line x1="17.364" y1="4.888" x2="18.425" y2="3.827" id="Path"></line>
+                        <line x1="20" y1="11.251" x2="21.5" y2="11.251" id="Path"></line>
+                        <line x1="17.364" y1="17.615" x2="18.425" y2="18.676" id="Path"></line>
+                        <line x1="4.636" y1="4.888" x2="3.575" y2="3.827" id="Path"></line>
+                        <line x1="2" y1="11.251" x2="0.5" y2="11.251" id="Path"></line>
+                        <line x1="4.636" y1="17.615" x2="3.575" y2="18.676" id="Path"></line>
+                        <path d="M8,16.449 L8,18.749 C8,20.4058542 9.34314575,21.749 11,21.749 C12.6568542,21.749 14,20.4058542 14,18.749 L14,16.449" id="Path"></path>
+                        <circle id="Oval" cx="11" cy="11.251" r="6"></circle>
+                        <line x1="11" y1="21.751" x2="11" y2="23.251" id="Path"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

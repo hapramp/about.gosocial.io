@@ -112,7 +112,7 @@ export default function Creators() {
           <h2 className="font-bold text-3xl sm:text-4xl lg:text-5xl text-center">100 True Fans is all you need</h2>
           <div className="mt-10">
             <div className="max-w-lg mx-auto">
-              <select value={fans} onChange={(e) => { setFans(e.target.value) }} className="w-full border border-grey-24 p-4 rounded text-grey-70" name="cars" id="cars">
+              <select autocomplete="off" value={fans} onChange={(e) => { setFans(e.target.value) }} className="w-full border border-grey-24 p-4 rounded text-grey-70 bg-transparent" name="cars" id="cars">
                 <option value="10">10 Fans</option>
                 <option value="100">100 Fans</option>
                 <option value="500">500 Fans</option>
@@ -124,7 +124,7 @@ export default function Creators() {
             </div>
 
             <div className="max-w-lg mx-auto mt-4">
-              <select value={subs} onChange={(e) => { setSubs(e.target.value) }} className="w-full border border-grey-24 p-4 rounded text-grey-70" name="cars" id="cars">
+              <select autocomplete="off" value={subs} onChange={(e) => { setSubs(e.target.value) }} className="w-full border border-grey-24 p-4 rounded text-grey-70 bg-transparent" name="cars" id="cars">
                 <option value="10">₹10/Fan</option>
                 <option value="100">₹100/Fan</option>
                 <option value="500">₹500/Fan</option>

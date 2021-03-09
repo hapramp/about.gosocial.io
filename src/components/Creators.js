@@ -138,7 +138,7 @@ export default function Creators() {
               <p className="text-3xl sm:text-4xl md:text-5xl text-primary">₹{(fans * subs).toLocaleString('en-in', { useGrouping: true })}/Month</p>
             </div>
             <div className="mt-6 text-center">
-              <a href="https://a16z.com/2020/02/06/100-true-fans/" className="text-lg border-b border-primary text-grey-70" rel="noopener noreferrer" target="_blank">Learn more about 100 true friends</a>
+              <a href="https://a16z.com/2020/02/06/100-true-fans/" className="text-lg border-b border-primary text-grey-70" rel="noopener noreferrer" target="_blank">Learn more about 100 true fans</a>
             </div>
           </div>
         </div>

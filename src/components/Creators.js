@@ -6,7 +6,10 @@ import ctaBlob from './Home/sections/img/cta-blob.png';
 import dots from './Home/sections/img/dots.png';
 
 export default function Creators() {
-  const [submitted, setSubmitted] = useState(false)
+  const [submitted, setSubmitted] = useState(false);
+  const [fans, setFans] = useState(100);
+  const [subs, setSubs] = useState(100);
+
   return (
     <div>
       {/* hero */}
@@ -88,7 +91,7 @@ export default function Creators() {
           }}
           className="px-4 max-w-7xl sm:px-10 bg-black text-white lg:mx-auto pt-16 sm:pt-24 pb-16 sm:pb-20 sm:py-32 lg:rounded-lg lg:shadow-2xl text-center relative bg-left-bottom bg-no-repeat">
           <h2 className="font-black text-3xl sm:text-4xl lg:text-5xl">Learn How You Can Monetize Your Passion</h2>
-          <p className="text-base md:text-lg mt-4 max-w-3xl mx-auto" style={{opacity:0.8}}>GoSocial has everything you need as a creator to build community, interact with fans, and earn through your content and expertise.</p>
+          <p className="text-base md:text-lg mt-4 max-w-3xl mx-auto" style={{ opacity: 0.8 }}>GoSocial has everything you need as a creator to build community, interact with fans, and earn through your content and expertise.</p>
           <div className="mt-10 sm:mt-16">
             <a
               rel="nofollow"
@@ -102,6 +105,42 @@ export default function Creators() {
             </a>
           </div>
           <img className="absolute cta-dots hidden sm:block" src={dots} alt="Dots Decos" />
+        </div>
+      </section>
+      <section className="mb-24 sm:mb-32 px-4 lg:px-6 xl:px-0">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-bold text-3xl sm:text-4xl lg:text-5xl text-center">100 True Fans is all you need</h2>
+          <div className="mt-10">
+            <div className="max-w-lg mx-auto">
+              <select value={fans} onChange={(e) => { setFans(e.target.value) }} className="w-full border border-grey-24 p-4 rounded text-grey-70" name="cars" id="cars">
+                <option value="10">10 Fans</option>
+                <option value="100">100 Fans</option>
+                <option value="500">500 Fans</option>
+                <option value="1000">1000 Fans</option>
+                <option value="2000">2000 Fans</option>
+                <option value="5000">5000 Fans</option>
+                <option value="10000">10000 Fans</option>
+              </select>
+            </div>
+
+            <div className="max-w-lg mx-auto mt-4">
+              <select value={subs} onChange={(e) => { setSubs(e.target.value) }} className="w-full border border-grey-24 p-4 rounded text-grey-70" name="cars" id="cars">
+                <option value="10">₹10/Fan</option>
+                <option value="100">₹100/Fan</option>
+                <option value="500">₹500/Fan</option>
+                <option value="1000">₹1000/Fan</option>
+                <option value="2000">₹2000/Fan</option>
+                <option value="5000">₹5000/Fan</option>
+                <option value="10000">₹10000/Fan</option>
+              </select>
+            </div>
+            <div className="text-center mt-10">
+              <p className="text-5xl text-primary">₹{(fans*subs).toLocaleString('en-in', {useGrouping:true})}/Month</p>
+            </div>
+            <div className="mt-6 text-center">
+              <a href="" className="text-lg border-b border-primary text-grey-70">Learn more about 100 true friends</a>
+            </div>
+          </div>
         </div>
       </section>
       <Footer />

@@ -135,13 +135,39 @@ export default function Creators() {
               </select>
             </div>
             <div className="text-center mt-10">
-              <p className="text-5xl text-primary">₹{(fans*subs).toLocaleString('en-in', {useGrouping:true})}/Month</p>
+              <p className="text-3xl sm:text-4xl md:text-5xl text-primary">₹{(fans * subs).toLocaleString('en-in', { useGrouping: true })}/Month</p>
             </div>
             <div className="mt-6 text-center">
-              <a href="" className="text-lg border-b border-primary text-grey-70">Learn more about 100 true friends</a>
+              <a href="https://a16z.com/2020/02/06/100-true-fans/" className="text-lg border-b border-primary text-grey-70" rel="noopener noreferrer" target="_blank">Learn more about 100 true friends</a>
             </div>
           </div>
         </div>
+      </section>
+      <section>
+        <section style={{ backgroundColor: '#F5F5F5' }} className="flex-1">
+          <div className="max-w-3xl mx-auto py-20 md:py-24 sm:mt-6 md:mt-10 px-4 sm:px-6 md:px-10 lg:px-0">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">Artists, photographers, fitness instructors, musicians, educators, and almost anyone can start their community on GoSocial.</h1>
+            <div className="mt-10 flex flex-row text-grey-87">
+              <div className="mr-16">
+                <div className="text-4xl md:text-5xl leading-none">500K+</div>
+                <p className="text-xl md:text-2xl">Users</p>
+              </div>
+
+              <div>
+                <div className="text-4xl md:text-5xl leading-none">200+</div>
+                <p className="text-xl md:text-2xl">Communities</p>
+              </div>
+            </div>
+            <div className="flex flex-row items-center mt-6 md:mt-8">
+              <a rel="nofollow noopener noreferrer" target="_blank" href="https://play.google.com/store/apps/details?id=com.go.social.prod&referrer=utm_source%3Dgetgosocial.app%26utm_medium%3Dbutton%26utm_term%3Dget%252Bit%252Bon%252Bplaystore%26utm_campaign%3Dlanding_page">
+                <img className="h-12 sm:h-16 mr-2" src={require('./Home/sections/img/playstore.png')} alt="" />
+              </a>
+              <a rel="nofollow noopener noreferrer" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScygrmIizhlszWnHMpmzJWHoznGO6Rk-v7g0Un6jZRGhkMihA/viewform?usp=sf_link">
+                <img className="h-12 sm:h-16" src={require('./Home/sections/img/appstore.svg')} alt="" />
+              </a>
+            </div>
+          </div>
+        </section>
       </section>
       <Footer />
     </div>

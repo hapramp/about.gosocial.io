@@ -41,6 +41,10 @@ section.form .form-feedback.submitted, section.hero .form-feedback.submitted {
   border-color: rgba(0, 0, 0, 0.24);
 }
 
+.text-grey-87 {
+  color: rgba(0, 0, 0, 0.87);
+}
+
 @media screen and (max-width:1024px) {
   .cta-dots {
     right: 24px;
